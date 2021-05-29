@@ -69,7 +69,7 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col>
- 
+
                     </Col>
 
                 </Row>
@@ -89,6 +89,8 @@ const Footer = () => {
                         <span> © 1996-2021, Amazon.com, Inc. or its affiliates </span>
                     </div>
                 </Row>
+                <br />
+                <Row className="author"> Akhil's Amazon Clone</Row>
             </Container>
 
         </div>

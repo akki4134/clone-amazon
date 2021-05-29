@@ -20,7 +20,7 @@ const Slider = () => {
   return (
     <>
       <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
-        "delay": 6000,
+        "delay": 5000,
         "disableOnInteraction": false
       }} navigation={true} className="mySwiper">
         <SwiperSlide>

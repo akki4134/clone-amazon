@@ -18,6 +18,16 @@
     flex-flow  : column nowrap;
 }
 
+.footer_option:hover .footer_optionLineOne {
+    text-decoration: underline;
+    cursor         : pointer;
+}
+
+.footer_option:hover .footer_optionLineTwo {
+    text-decoration: underline;
+    cursor         : pointer;
+}
+
 .footer_optionLineOne {
     font-size     : 12px !important;
     vertical-align: top;
@@ -45,4 +55,12 @@
 
 .footer_text:hover {
     text-decoration: underline;
+    cursor         : pointer;
+}
+
+.author {
+   justify-content: center;
+}
+.author:hover{
+    color: #ddd;
 }
