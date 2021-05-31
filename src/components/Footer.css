@@ -58,9 +58,9 @@
     cursor         : pointer;
 }
 
-.author {
+.author {       
    justify-content: center;
 }
-.author:hover{
+.author1:hover{
     color: #ddd;
 }

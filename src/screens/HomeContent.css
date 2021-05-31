@@ -1,0 +1,21 @@
+.row {
+    max-width: 1480px;
+    margin   : 0 auto;
+    overflow : hidden;
+    padding  : 20px 0;
+}
+.raw{
+    
+}
+
+.home__row {
+    display      : flex;
+    z-index      : 1;
+    background   : #fff;
+    height       : 100%;
+    position     : relative;
+    margin-bottom: 0;
+    margin-top   : 0;
+    overflow     : hidden;
+    padding-top  : 20px;
+}

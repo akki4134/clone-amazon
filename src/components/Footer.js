@@ -90,7 +90,11 @@ const Footer = () => {
                     </div>
                 </Row>
                 <br />
-                <Row className="author"> Akhil's Amazon Clone</Row>
+                <Row className="author" >
+                    <div className="author1">
+                        Akhil's Amazon Clone
+                    </div>
+                </Row>
             </Container>
 
         </div>
