@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 import './Home.css'
 import HomeContent from './HomeContent'
-import Product from './Product'
+
 
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'

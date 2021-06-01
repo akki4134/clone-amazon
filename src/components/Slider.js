@@ -49,7 +49,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2021/desktop-2x._CB658860139_.jpg"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/WW84/Launch/3000x1200_Hero-Tall_JPN._CB669639161_.jpg"
               alt=""
             />
           </SwiperSlide>

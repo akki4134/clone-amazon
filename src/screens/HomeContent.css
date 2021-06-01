@@ -1,21 +1,25 @@
-.row {
-    max-width: 1480px;
-    margin   : 0 auto;
-    overflow : hidden;
-    padding  : 20px 0;
-}
-.raw{
-    
+.main_row {
+    max-width       : 1480px;
+    margin          : 0 auto;
+    overflow        : hidden;
+    padding         : 20px 0;
+    background-color: aqua;
 }
 
 .home__row {
-    display      : flex;
-    z-index      : 1;
-    background   : #fff;
-    height       : 100%;
-    position     : relative;
-    margin-bottom: 0;
-    margin-top   : 0;
-    overflow     : hidden;
-    padding-top  : 20px;
+    background: #fff;
+    height    : 100%;
+    padding   : 15px;
+}
+
+.header_text {
+    font-size  : 21px !important;
+    line-height: 27.3px !important;
+    font-weight: 700;
+    padding    : 20px;
+}
+
+.button {
+    display   : block;
+    text-align: center;
 }
