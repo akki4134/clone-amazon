@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 
+import { Route, Switch } from 'react-router-dom'
 
 
 import './Home.css'
@@ -7,7 +8,6 @@ import HomeContent from './HomeContent'
 
 
 import Navbar from '../components/Navbar'
-import Slider from '../components/Slider'
 import Footer from '../components/Footer'
 
 import Alert from 'react-bootstrap/Alert'
@@ -38,15 +38,10 @@ const Home = () => {
         <div>
             {AlertDismissibleExample()}
             <Navbar />
-            <div>
-                <div className="home__image">
-                    <Slider />
-                </div>
-                <div >
-                    <HomeContent />
-                </div>
-            </div>
-            <Footer/>
+            <Switch>
+                <Route path='/' exact component={HomeContent} />                
+            </Switch>
+            <Footer />
         </div>
     )
 }

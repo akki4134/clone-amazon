@@ -6,10 +6,16 @@ import Row from 'react-bootstrap/Row'
 
 import Button from 'react-bootstrap/Button'
 
+import Slider from '../components/Slider'
+
 const HomeContent = () => {
     return (
 
         <Container fluid>
+
+            <div className="home__image">
+                <Slider />
+            </div>
 
             <Row>
                 <Col lg={3}>
@@ -32,7 +38,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Acko/Travel/Bus_PC_QC_372x232._SY232_CB656565308_.jpg"
                                     alt=""
-                               />
+                                />
                                 <p>Bus ticket</p>
                             </div>
                         </div>
@@ -41,7 +47,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Acko/Travel/Flight_PC_QC_372x232._SY232_CB656565308_.jpg"
                                     alt=""
-                               />
+                                />
                                 <p>Train ticket</p>
 
                             </div>
@@ -49,7 +55,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Acko/Travel/Bus_PC_QC_372x232._SY232_CB656565308_.jpg"
                                     alt=""
-                               />
+                                />
                                 <p>Essencial Travel Products</p>
                             </div>
 
@@ -73,7 +79,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Tools2x._SY232_CB424026090_.jpg"
                                     alt=""
-                               />
+                                />
                                 <p>Professional tools</p>
 
                             </div>
@@ -81,7 +87,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2020/GW/Testing-_372x232._SY232_CB406506817_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p>Measuring instruments</p>
                             </div>
                         </div>
@@ -90,7 +96,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Jan_san1_372x232._SY232_CB406505872_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p>Cleaning supplies</p>
 
                             </div>
@@ -98,12 +104,10 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/med2x._SY232_CB424026091_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p>Medical supplies</p>
                             </div>
-
                         </div>
-
                         <div>
                             See more
                         </div>
@@ -122,7 +126,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Gateway/Womens_Fashion/Layer_668._SY232_CB656506084_.jpg"
                                     alt=""
-                             />
+                                />
                                 <p> Women's Clothing </p>
 
                             </div>
@@ -130,7 +134,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Gateway/Womens_Fashion/Layer_669._SY232_CB656506084_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p>Footwear+Handbags</p>
                             </div>
                         </div>
@@ -139,7 +143,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Gateway/Womens_Fashion/Layer_670._SY232_CB656506084_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p> Watches</p>
 
                             </div>
@@ -147,7 +151,7 @@ const HomeContent = () => {
                                 <img class="img-thumbnail"
                                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Gateway/Womens_Fashion/Layer_671._SY232_CB656506084_.jpg"
                                     alt=""
-                              />
+                                />
                                 <p>Fashion jewellery</p>
                             </div>
 
@@ -174,8 +178,8 @@ const HomeContent = () => {
                     <div class="col">
                         <img class="img-fluid" alt="Responsive"
                             src="https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg"
-                           
-                       />
+
+                        />
 
                     </div>
                 </div>
