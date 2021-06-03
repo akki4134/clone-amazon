@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 
-import { Route, Switch } from 'react-router-dom'
 
 
 import './Home.css'
@@ -38,9 +37,7 @@ const Home = () => {
         <div>
             {AlertDismissibleExample()}
             <Navbar />
-            <Switch>
-                <Route path='/' exact component={HomeContent} />                
-            </Switch>
+            <HomeContent />
             <Footer />
         </div>
     )
