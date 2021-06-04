@@ -132,11 +132,11 @@ input[type=text] {
     margin               : 5px;
     width                : 85%;
     border               : 2px solid #f6f6f6;
-    -webkit-transition   : all 0.5s ease-in-out;
-    -moz-transition      : all 0.5s ease-in-out;
-    -ms-transition       : all 0.5s ease-in-out;
-    -o-transition        : all 0.5s ease-in-out;
-    transition           : all 0.5s ease-in-out;
+    -webkit-transition   : all 0.2s ease-in-out;
+    -moz-transition      : all 0.2s ease-in-out;
+    -ms-transition       : all 0.2s ease-in-out;
+    -o-transition        : all 0.2s ease-in-out;
+    transition           : all 0.2s ease-in-out;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius        : 5px 5px 5px 5px;
 }
@@ -165,11 +165,11 @@ input[type=password] {
     margin               : 5px;
     width                : 85%;
     border               : 2px solid #f6f6f6;
-    -webkit-transition   : all 0.5s ease-in-out;
-    -moz-transition      : all 0.5s ease-in-out;
-    -ms-transition       : all 0.5s ease-in-out;
-    -o-transition        : all 0.5s ease-in-out;
-    transition           : all 0.5s ease-in-out;
+    -webkit-transition   : all 0.2s ease-in-out;
+    -moz-transition      : all 0.2s ease-in-out;
+    -ms-transition       : all 0.2s ease-in-out;
+    -o-transition        : all 0.2s ease-in-out;
+    transition           : all 0.2s ease-in-out;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius        : 5px 5px 5px 5px;
 }
@@ -271,21 +271,21 @@ input[type=password]:placeholder {
 }
 
 .fadeIn.first {
-    -webkit-animation-delay: 0.4s;
-    -moz-animation-delay   : 0.4s;
-    animation-delay        : 0.4s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay   : 0.1s;
+    animation-delay        : 0.1s;
 }
 
 .fadeIn.second {
-    -webkit-animation-delay: 0.6s;
-    -moz-animation-delay   : 0.6s;
-    animation-delay        : 0.6s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay   : 0.1s;
+    animation-delay        : 0.1s;
 }
 
 .fadeIn.third {
-    -webkit-animation-delay: 0.8s;
-    -moz-animation-delay   : 0.8s;
-    animation-delay        : 0.8s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay   : 0.1s;
+    animation-delay        : 0.1s;
 }
 
 .fadeIn.fourth {

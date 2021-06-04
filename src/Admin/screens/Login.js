@@ -1,6 +1,12 @@
 import './Login.css'
 
+import { useHistory } from "react-router-dom";
+
+
 const Login = () => {
+
+    let history = useHistory();
+
     return (
         <div class="wrapper fadeInDown">
             <div id="formContent">
@@ -8,7 +14,7 @@ const Login = () => {
                 <form>
                     <input type="text" id="login" class="fadeIn second" placeholder="login" />
                     <input type="password" id="password" class="fadeIn third" placeholder="password" />
-                    <input type="submit" class="fadeIn fourth" value="Log In" />
+                    <input type="submit" onClick={() => {history.push('/adminDashboard')}} class="fadeIn fourth" value="Log In" />            
                 </form>
 
                 <div id="formFooter">

@@ -34,7 +34,7 @@ const Home = () => {
     }
 
     return (
-        <div>
+        <div className="main" >
             {AlertDismissibleExample()}
             <Navbar />
             <HomeContent />

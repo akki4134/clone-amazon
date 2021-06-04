@@ -1,9 +1,10 @@
 .footer {
-    height          : 50px;
+    height          : 100%;
     background-color: #131A22;
     display         : flex;
     align-items     : center;
-    padding         : 150px;
+    padding         : 50px;
+    justify-content: center;
 }
 
 .footer_context {

@@ -8,21 +8,21 @@ const Footer = () => {
     return (
 
         <div className="footer">
-            <Container>
+            <Container fluid>
                 <Row>
-                    <Col>
+                    <Col >
                         <div className="footer_option">
                             <span className="footer_optionLineOne">AbeBooks</span>
                             <span className="footer_optionLineTwo">Books, art<br />&amp; collectibles</span>
                         </div>
-                    </Col>
-                    <Col>
+                    </Col >
+                    <Col >
                         <div className="footer_option">
                             <span className="footer_optionLineOne">Amazon Web Services</span>
                             <span className="footer_optionLineTwo">Scalable Cloud<br />&amp; Computing Services</span>
                         </div>
                     </Col>
-                    <Col>
+                    <Col >
                         <div className="footer_option">
                             <span className="footer_optionLineOne">Audible</span>
                             <span className="footer_optionLineTwo">Download<br />&amp; Audio Books</span>
@@ -34,7 +34,7 @@ const Footer = () => {
                             <span className="footer_optionLineTwo">Digital<br />&amp; Photography</span>
                         </div>
                     </Col>
-                    <Col>
+                    <Col >
                         <div className="footer_option">
                             <span className="footer_optionLineOne">	IMDb</span>
                             <span className="footer_optionLineTwo">Movies, TV<br />&amp; & Celebrities</span>
@@ -46,26 +46,26 @@ const Footer = () => {
                 <Row>
                     <Col>
                         <div className="footer_option">
-                            <span className="footer_optionLineOne">AbeBooks</span>
-                            <span className="footer_optionLineTwo">Books, art<br />&amp; collectibles</span>
+                            <span className="footer_optionLineOne">Shopbop</span>
+                            <span className="footer_optionLineTwo">Designer<br />&amp; Fashion Brands</span>
                         </div>
                     </Col>
                     <Col>
                         <div className="footer_option">
-                            <span className="footer_optionLineOne">Amazon Web Services</span>
-                            <span className="footer_optionLineTwo">Scalable Cloud<br />&amp; Computing Services</span>
+                            <span className="footer_optionLineOne">Amazon Business</span>
+                            <span className="footer_optionLineTwo">Everything For<br />&amp; Your Business</span>
                         </div>
                     </Col>
                     <Col>
                         <div className="footer_option">
-                            <span className="footer_optionLineOne">Audible</span>
-                            <span className="footer_optionLineTwo">Download<br />&amp; Audio Books</span>
+                            <span className="footer_optionLineOne">	Prime Now</span>
+                            <span className="footer_optionLineTwo">2-Hour Delivery<br />&amp; on Everyday Items</span>
                         </div>
                     </Col>
                     <Col>
                         <div className="footer_option">
-                            <span className="footer_optionLineOne">	DPReview</span>
-                            <span className="footer_optionLineTwo">Digital<br />&amp; Photography</span>
+                            <span className="footer_optionLineOne">	Amazon Prime Music </span>
+                            <span className="footer_optionLineTwo">70 million songs, ad-free<br />&amp; Over 9 million podcast episodes</span>
                         </div>
                     </Col>
                     <Col>
