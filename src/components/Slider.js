@@ -8,7 +8,6 @@ import "swiper/components/navigation/navigation.min.css"
 
 import "./Slider.css";
 
-
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Navigation } from 'swiper/core';
 
