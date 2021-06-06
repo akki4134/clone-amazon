@@ -32,30 +32,20 @@
 
 .nav-text {
     display        : flex;
-    justify-content: flex-start;
-    align-items    : center;
-    list-style     : none;
-    height         : 60px;
-}
-
-.nav-text a {
+    border-radius  : 2px;
     text-decoration: none;
     color          : #f5f5f5;
     font-size      : 18px;
-    width          : 150%;
-    height         : 60%;
-    display        : flex;
-    align-items    : center;
-    border-radius  : 2px;
+   
 }
 
-.nav-text a:hover {
+
+.nav-text:hover {
     background-color: #8ca4c0;
 }
 
 .nav-menu-items {
     margin-left: -40px;
-
 }
 
 span {

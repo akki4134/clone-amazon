@@ -16,27 +16,45 @@ const AdminHome = () => {
     return (
         <>
             {/* <div className="container"> */}
-                <IconContext.Provider value={{ color: '#fff' }}>
-                    <div className='navbar'>
-                        <Link to='#' className='menu-bars'>
-                            <FaIcons.FaBars onClick={showSidebar} />
-                        </Link>
-                    </div>
-                    <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                        <ul className='nav-menu-items' onClick={showSidebar}>
-                            {SidebarData.map((item, index) => {
-                                return (
-                                    <li key={index} className={item.cName}>
-                                        <Link to={item.path}>
-                                            {item.icon}
-                                            <span>{item.title}</span>
-                                        </Link>
-                                    </li>
-                                );
-                            })}
-                        </ul>
-                    </nav>
-                </IconContext.Provider>
+            <IconContext.Provider value={{ color: '#fff' }}>
+                <div className='navbar'>
+                    <Link to='#' className='menu-bars'>
+                        <FaIcons.FaBars onClick={showSidebar} />
+                    </Link>
+                </div>
+                <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items'>
+                        <li className='nav-text'>
+                            <span>    Home </span>
+                        </li>
+                        <li className='nav-text'>
+                            <span>    Home </span>
+                        </li>
+                        <li className='nav-text'>
+                            <span>    Home </span>
+                        </li>
+                        <li className='nav-text'>
+                          
+                          <ul>
+                              <li>
+                              <span>    Home1 </span>
+                              
+                              </li>
+                              <li>
+                              <span>    Home2 </span>
+                              
+                              </li>
+                              <li>
+                              <span>    Home3 </span>
+                              
+                              </li>
+                          </ul>
+                         
+                        </li>
+                    </ul>
+
+                </nav>
+            </IconContext.Provider>
             {/* </div> */}
         </>
     );
