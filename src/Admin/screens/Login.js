@@ -14,7 +14,7 @@ const Login = () => {
                 <form>
                     <input type="text" id="login" class="fadeIn second" placeholder="login" />
                     <input type="password" id="password" class="fadeIn third" placeholder="password" />
-                    <input type="submit" onClick={() => {history.push('/adminDashboard')}} class="fadeIn fourth" value="Log In" />            
+                    <input type="submit" onClick={() => {history.push('/adminHome')}} class="fadeIn fourth" value="Log In" />            
                 </form>
 
                 <div id="formFooter">
