@@ -2,12 +2,19 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [
   {
     title: 'Home',
-    path: '/',
+    path: '/adminDashboard',
     icon: <AiIcons.AiFillHome />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Clients',
+    path: '/clients',
+    icon: <SiIcons.SiGooglemybusiness />,
     cName: 'nav-text'
   },
   {
@@ -40,4 +47,9 @@ export const SidebarData = [
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text'
   }
+
+
+
+
+    
 ];
