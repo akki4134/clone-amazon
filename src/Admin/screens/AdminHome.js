@@ -126,6 +126,7 @@ const AdminHome = () => {
                     <Row>
                         <Col>
                             <div className="card2">
+                                
 
                             </div>
                         </Col>
