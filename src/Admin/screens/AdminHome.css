@@ -83,7 +83,7 @@ span {
     justify-content: center;
 }
 
-.con1{
+.con{
     margin : 10px;
     padding: 20px;
 }
@@ -103,9 +103,3 @@ span {
     background-color: #f5f5f5;
 }
 
-.card3 {
-    height          : 300px;
-    border-radius   : 2px;
-    border-width    : 2px;
-    background-color: #f5f5f5;
-}

@@ -85,7 +85,7 @@ const AdminHome = () => {
                 <br />
                 <br />
 
-                <div className='con' onClick={closeSidebar} >
+                <div onClick={closeSidebar} >
 
                     <Row>
                         <Col lg={2} md={4} sm={4} xs={6} >
@@ -123,28 +123,6 @@ const AdminHome = () => {
                     </Row>
                     <br />
                     <br />
-
-                    <Row>
-                        <Col lg={3}>
-                            <div className="card2">
-
-                            </div>
-
-                        </Col>
-                        <Col lg={6}>
-                            <div className="card2">
-
-                            </div>
-
-                        </Col>
-                        <Col lg={3}>
-                            <div className="card2">
-
-                            </div>
-                        </Col>
-                    </Row>
-                    <br />
-                    <br />
                     <Row>
                         <Col>
                             <div className="card2">
@@ -170,11 +148,32 @@ const AdminHome = () => {
                         </Col>
 
                     </Row>
+                    <br />
+                    <br />
+                    <Row>
+                        <Col lg={3}>
+                            <div className="card2">
+
+                            </div>
+
+                        </Col>
+                        <Col lg={6}>
+                            <div className="card2">
+
+                            </div>
+
+                        </Col>
+                        <Col lg={3}>
+                            <div className="card2">
+
+                            </div>
+                        </Col>
+                    </Row>
+
+
 
                 </div>
             </Container>
-
-
         </>
     );
 }
