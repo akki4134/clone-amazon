@@ -138,7 +138,7 @@ const AdminHome = () => {
                     <Row>
                         <Col>
                             <div className="card2">
-
+                                <YearChart />
                             </div>
                         </Col>
                         <Col>
