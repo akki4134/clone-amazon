@@ -94,7 +94,7 @@ const AdminHome = () => {
                         <Col lg={2} md={4} sm={4} xs={6} >
                             <div className="card">
                                 <div style={{ alignItems: 'center' }}>
-                                    <p> Radio</p>
+                                    <p> Essentials</p>
                                 </div>
 
                                 <SalesChart />
@@ -102,32 +102,42 @@ const AdminHome = () => {
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-                                Tv
+                                <div style={{ alignItems: 'center' }}>
+                                    <p> Electronics</p>
+                                </div>
                                 <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-                                Tv
+                                <div style={{ alignItems: 'center' }}>
+                                    <p>Fashion</p>
+                                </div>
                                 <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-                                Tv
+                                <div style={{ alignItems: 'center' }}>
+                                    <p> Mobile</p>
+                                </div>
                                 <SalesChart />
                             </div>
                         </Col>
 
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-                                Tv
+                                <div style={{ alignItems: 'center' }}>
+                                    <p> Books</p>
+                                </div>
                                 <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-                                Tv
+                                <div style={{ alignItems: 'center' }}>
+                                    <p> appliances</p>
+                                </div>
                                 <SalesChart />
                             </div>
                         </Col>
