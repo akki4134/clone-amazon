@@ -21,6 +21,9 @@ import Button from 'react-bootstrap/Button'
 
 import { IconContext } from 'react-icons';
 
+import YearChart from '../charts/YearlyReport'
+import SalesChart from '../charts/SalesReport'
+
 const AdminHome = () => {
     const [sidebar, setSidebar] = useState(false);
 
@@ -90,33 +93,42 @@ const AdminHome = () => {
                     <Row>
                         <Col lg={2} md={4} sm={4} xs={6} >
                             <div className="card">
+                                <div style={{ alignItems: 'center' }}>
+                                    <p> Radio</p>
+                                </div>
 
+                                <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-
+                                Tv
+                                <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-
+                                Tv
+                                <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-
+                                Tv
+                                <SalesChart />
                             </div>
                         </Col>
 
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-
+                                Tv
+                                <SalesChart />
                             </div>
                         </Col>
                         <Col lg={2} md={4} sm={4} xs={6}>
                             <div className="card">
-
+                                Tv
+                                <SalesChart />
                             </div>
                         </Col>
 
@@ -126,7 +138,6 @@ const AdminHome = () => {
                     <Row>
                         <Col>
                             <div className="card2">
-                                
 
                             </div>
                         </Col>

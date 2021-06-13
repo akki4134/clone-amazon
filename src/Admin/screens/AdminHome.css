@@ -55,8 +55,8 @@
 }
 
 .nav-text a:hover {
-    color          : #000;
-    background-color: #ACB6E5;  
+    color           : #000;
+    background-color: #ACB6E5;
 }
 
 .nav-menu-items {
@@ -83,7 +83,7 @@ span {
     justify-content: center;
 }
 
-.con{
+.con {
     margin : 10px;
     padding: 20px;
 }
@@ -94,6 +94,7 @@ span {
     border-radius: 2px;
     border-width : 2px;
     margin-left  : 10px;
+    
 }
 
 .card2 {
@@ -102,4 +103,3 @@ span {
     border-width    : 2px;
     background-color: #f5f5f5;
 }
-
