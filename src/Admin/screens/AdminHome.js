@@ -51,13 +51,13 @@ const AdminHome = () => {
                                 navbarScroll
                             >
                                 <Nav.Link href="/">New Requests</Nav.Link>
-                                <NavDropdown title="Link" id="navbarScrollingDropdown">
+                                <NavDropdown title="orders" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/">Action</NavDropdown.Item>
                                     <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="/">Link</Nav.Link>
+                                <Nav.Link href="/">New Clients</Nav.Link>
                             </Nav>
                             <Form className="d-flex">
                                 <FormControl
